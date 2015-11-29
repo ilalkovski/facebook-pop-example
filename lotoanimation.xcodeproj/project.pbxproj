@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FDD6C822415A9DD9687F58E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F53BED2DBA33C062A160FF /* Pods.framework */; };
+		CD72003C1C0B144B00F12DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72003B1C0B144B00F12DC5 /* main.m */; };
+		CD72003F1C0B144B00F12DC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72003E1C0B144B00F12DC5 /* AppDelegate.m */; };
+		CD7200471C0B144B00F12DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7200461C0B144B00F12DC5 /* Assets.xcassets */; };
+		CD7200531C0B158B00F12DC5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7200521C0B158B00F12DC5 /* MainViewController.m */; };
+		CD7200561C0B19E000F12DC5 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7200551C0B19E000F12DC5 /* MainView.m */; };
+		CD72005C1C0B235B00F12DC5 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72005B1C0B235B00F12DC5 /* HeaderView.m */; };
+		CD7200631C0B462100F12DC5 /* TicketView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7200621C0B462100F12DC5 /* TicketView.m */; };
+		CD7200671C0B55F200F12DC5 /* ActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7200661C0B55F200F12DC5 /* ActionSheetView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9AE8573AA827F2FEFA03AF6C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CD7200371C0B144B00F12DC5 /* lotoanimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lotoanimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD72003B1C0B144B00F12DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD72003D1C0B144B00F12DC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD72003E1C0B144B00F12DC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD7200461C0B144B00F12DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD72004B1C0B144B00F12DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7200511C0B158B00F12DC5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CD7200521C0B158B00F12DC5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CD7200541C0B19E000F12DC5 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		CD7200551C0B19E000F12DC5 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		CD72005A1C0B235B00F12DC5 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		CD72005B1C0B235B00F12DC5 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		CD7200611C0B462100F12DC5 /* TicketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketView.h; sourceTree = "<group>"; };
+		CD7200621C0B462100F12DC5 /* TicketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketView.m; sourceTree = "<group>"; };
+		CD7200641C0B473800F12DC5 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants.h; sourceTree = "<group>"; };
+		CD7200651C0B55F200F12DC5 /* ActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetView.h; sourceTree = "<group>"; };
+		CD7200661C0B55F200F12DC5 /* ActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetView.m; sourceTree = "<group>"; };
+		D4F53BED2DBA33C062A160FF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25746059DFA340A4EDA20F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7200341C0B144B00F12DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDD6C822415A9DD9687F58E /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A3CAD4870876B444246846A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E25746059DFA340A4EDA20F5 /* Pods.debug.xcconfig */,
+				9AE8573AA827F2FEFA03AF6C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		418073E1D768C3427BCE3DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4F53BED2DBA33C062A160FF /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD72002E1C0B144B00F12DC5 = {
+			isa = PBXGroup;
+			children = (
+				CD7200391C0B144B00F12DC5 /* lotoanimation */,
+				CD7200381C0B144B00F12DC5 /* Products */,
+				2A3CAD4870876B444246846A /* Pods */,
+				418073E1D768C3427BCE3DCE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7200381C0B144B00F12DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7200371C0B144B00F12DC5 /* lotoanimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7200391C0B144B00F12DC5 /* lotoanimation */ = {
+			isa = PBXGroup;
+			children = (
+				CD7200641C0B473800F12DC5 /* Constants.h */,
+				CD72003D1C0B144B00F12DC5 /* AppDelegate.h */,
+				CD72003E1C0B144B00F12DC5 /* AppDelegate.m */,
+				CD7200461C0B144B00F12DC5 /* Assets.xcassets */,
+				CD72004B1C0B144B00F12DC5 /* Info.plist */,
+				CD72003A1C0B144B00F12DC5 /* Supporting Files */,
+				CD7200511C0B158B00F12DC5 /* MainViewController.h */,
+				CD7200521C0B158B00F12DC5 /* MainViewController.m */,
+				CD7200541C0B19E000F12DC5 /* MainView.h */,
+				CD7200551C0B19E000F12DC5 /* MainView.m */,
+				CD72005A1C0B235B00F12DC5 /* HeaderView.h */,
+				CD72005B1C0B235B00F12DC5 /* HeaderView.m */,
+				CD7200611C0B462100F12DC5 /* TicketView.h */,
+				CD7200621C0B462100F12DC5 /* TicketView.m */,
+				CD7200651C0B55F200F12DC5 /* ActionSheetView.h */,
+				CD7200661C0B55F200F12DC5 /* ActionSheetView.m */,
+			);
+			path = lotoanimation;
+			sourceTree = "<group>";
+		};
+		CD72003A1C0B144B00F12DC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD72003B1C0B144B00F12DC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7200361C0B144B00F12DC5 /* lotoanimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD72004E1C0B144B00F12DC5 /* Build configuration list for PBXNativeTarget "lotoanimation" */;
+			buildPhases = (
+				D4A1495CF1899F7B3B077678 /* Check Pods Manifest.lock */,
+				CD7200331C0B144B00F12DC5 /* Sources */,
+				CD7200341C0B144B00F12DC5 /* Frameworks */,
+				CD7200351C0B144B00F12DC5 /* Resources */,
+				A053254DD3B2604DCFEBA67C /* Embed Pods Frameworks */,
+				048CA0BD893CAC9355A997CC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lotoanimation;
+			productName = lotoanimation;
+			productReference = CD7200371C0B144B00F12DC5 /* lotoanimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD72002F1C0B144B00F12DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Ilija;
+				TargetAttributes = {
+					CD7200361C0B144B00F12DC5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = CD7200321C0B144B00F12DC5 /* Build configuration list for PBXProject "lotoanimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD72002E1C0B144B00F12DC5;
+			productRefGroup = CD7200381C0B144B00F12DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7200361C0B144B00F12DC5 /* lotoanimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7200351C0B144B00F12DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7200471C0B144B00F12DC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048CA0BD893CAC9355A997CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A053254DD3B2604DCFEBA67C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A1495CF1899F7B3B077678 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7200331C0B144B00F12DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD72003F1C0B144B00F12DC5 /* AppDelegate.m in Sources */,
+				CD72005C1C0B235B00F12DC5 /* HeaderView.m in Sources */,
+				CD7200671C0B55F200F12DC5 /* ActionSheetView.m in Sources */,
+				CD7200561C0B19E000F12DC5 /* MainView.m in Sources */,
+				CD7200531C0B158B00F12DC5 /* MainViewController.m in Sources */,
+				CD7200631C0B462100F12DC5 /* TicketView.m in Sources */,
+				CD72003C1C0B144B00F12DC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD72004C1C0B144B00F12DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD72004D1C0B144B00F12DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD72004F1C0B144B00F12DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25746059DFA340A4EDA20F5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = lotoanimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.lotoanimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD7200501C0B144B00F12DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE8573AA827F2FEFA03AF6C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = lotoanimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.lotoanimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7200321C0B144B00F12DC5 /* Build configuration list for PBXProject "lotoanimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD72004C1C0B144B00F12DC5 /* Debug */,
+				CD72004D1C0B144B00F12DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD72004E1C0B144B00F12DC5 /* Build configuration list for PBXNativeTarget "lotoanimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD72004F1C0B144B00F12DC5 /* Debug */,
+				CD7200501C0B144B00F12DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD72002F1C0B144B00F12DC5 /* Project object */;
+}
